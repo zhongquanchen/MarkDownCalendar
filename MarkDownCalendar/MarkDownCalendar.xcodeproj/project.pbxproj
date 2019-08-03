@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		559D1FAD22F55B29001342EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FAC22F55B29001342EF /* AppDelegate.swift */; };
-		559D1FAF22F55B29001342EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FAE22F55B29001342EF /* ViewController.swift */; };
 		559D1FB222F55B29001342EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D1FB022F55B29001342EF /* Main.storyboard */; };
 		559D1FB522F55B29001342EF /* MarkDownCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FB322F55B29001342EF /* MarkDownCalendar.xcdatamodeld */; };
 		559D1FB722F55B2A001342EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559D1FB622F55B2A001342EF /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		559D1FA922F55B29001342EF /* MarkDownCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkDownCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559D1FAC22F55B29001342EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		559D1FAE22F55B29001342EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		559D1FB122F55B29001342EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		559D1FB422F55B29001342EF /* MarkDownCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarkDownCalendar.xcdatamodel; sourceTree = "<group>"; };
 		559D1FB622F55B2A001342EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				559D1FAC22F55B29001342EF /* AppDelegate.swift */,
-				559D1FAE22F55B29001342EF /* ViewController.swift */,
 				559D1FB022F55B29001342EF /* Main.storyboard */,
+				559D1FDD22F5622F001342EF /* Classes */,
 				559D1FB622F55B2A001342EF /* Assets.xcassets */,
 				559D1FB822F55B2A001342EF /* LaunchScreen.storyboard */,
 				559D1FBB22F55B2A001342EF /* Info.plist */,
@@ -126,6 +124,45 @@
 				559D1FD122F55B2A001342EF /* Info.plist */,
 			);
 			path = MarkDownCalendarUITests;
+			sourceTree = "<group>";
+		};
+		559D1FDD22F5622F001342EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				559D1FE022F5624C001342EF /* Main */,
+				559D1FDF22F5624C001342EF /* Home */,
+				559D1FDE22F5624C001342EF /* Profile */,
+				559D1FE122F56265001342EF /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		559D1FDE22F5624C001342EF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		559D1FDF22F5624C001342EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		559D1FE022F5624C001342EF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		559D1FE122F56265001342EF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559D1FAF22F55B29001342EF /* ViewController.swift in Sources */,
 				559D1FAD22F55B29001342EF /* AppDelegate.swift in Sources */,
 				559D1FB522F55B29001342EF /* MarkDownCalendar.xcdatamodeld in Sources */,
 			);
