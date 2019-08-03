@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559D1FAD22F55B29001342EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FAC22F55B29001342EF /* AppDelegate.swift */; };
+		559D1FAF22F55B29001342EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FAE22F55B29001342EF /* ViewController.swift */; };
+		559D1FB222F55B29001342EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D1FB022F55B29001342EF /* Main.storyboard */; };
+		559D1FB522F55B29001342EF /* MarkDownCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FB322F55B29001342EF /* MarkDownCalendar.xcdatamodeld */; };
+		559D1FB722F55B2A001342EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559D1FB622F55B2A001342EF /* Assets.xcassets */; };
+		559D1FBA22F55B2A001342EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559D1FB822F55B2A001342EF /* LaunchScreen.storyboard */; };
+		559D1FC522F55B2A001342EF /* MarkDownCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FC422F55B2A001342EF /* MarkDownCalendarTests.swift */; };
+		559D1FD022F55B2A001342EF /* MarkDownCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D1FCF22F55B2A001342EF /* MarkDownCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559D1FC122F55B2A001342EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559D1FA122F55B28001342EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559D1FA822F55B29001342EF;
+			remoteInfo = MarkDownCalendar;
+		};
+		559D1FCC22F55B2A001342EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559D1FA122F55B28001342EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559D1FA822F55B29001342EF;
+			remoteInfo = MarkDownCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559D1FA922F55B29001342EF /* MarkDownCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkDownCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D1FAC22F55B29001342EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559D1FAE22F55B29001342EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		559D1FB122F55B29001342EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559D1FB422F55B29001342EF /* MarkDownCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarkDownCalendar.xcdatamodel; sourceTree = "<group>"; };
+		559D1FB622F55B2A001342EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559D1FB922F55B2A001342EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559D1FBB22F55B2A001342EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559D1FC022F55B2A001342EF /* MarkDownCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkDownCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D1FC422F55B2A001342EF /* MarkDownCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownCalendarTests.swift; sourceTree = "<group>"; };
+		559D1FC622F55B2A001342EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559D1FCB22F55B2A001342EF /* MarkDownCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkDownCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D1FCF22F55B2A001342EF /* MarkDownCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownCalendarUITests.swift; sourceTree = "<group>"; };
+		559D1FD122F55B2A001342EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559D1FA622F55B29001342EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FBD22F55B2A001342EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FC822F55B2A001342EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559D1FA022F55B28001342EF = {
+			isa = PBXGroup;
+			children = (
+				559D1FAB22F55B29001342EF /* MarkDownCalendar */,
+				559D1FC322F55B2A001342EF /* MarkDownCalendarTests */,
+				559D1FCE22F55B2A001342EF /* MarkDownCalendarUITests */,
+				559D1FAA22F55B29001342EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559D1FAA22F55B29001342EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559D1FA922F55B29001342EF /* MarkDownCalendar.app */,
+				559D1FC022F55B2A001342EF /* MarkDownCalendarTests.xctest */,
+				559D1FCB22F55B2A001342EF /* MarkDownCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559D1FAB22F55B29001342EF /* MarkDownCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				559D1FAC22F55B29001342EF /* AppDelegate.swift */,
+				559D1FAE22F55B29001342EF /* ViewController.swift */,
+				559D1FB022F55B29001342EF /* Main.storyboard */,
+				559D1FB622F55B2A001342EF /* Assets.xcassets */,
+				559D1FB822F55B2A001342EF /* LaunchScreen.storyboard */,
+				559D1FBB22F55B2A001342EF /* Info.plist */,
+				559D1FB322F55B29001342EF /* MarkDownCalendar.xcdatamodeld */,
+			);
+			path = MarkDownCalendar;
+			sourceTree = "<group>";
+		};
+		559D1FC322F55B2A001342EF /* MarkDownCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				559D1FC422F55B2A001342EF /* MarkDownCalendarTests.swift */,
+				559D1FC622F55B2A001342EF /* Info.plist */,
+			);
+			path = MarkDownCalendarTests;
+			sourceTree = "<group>";
+		};
+		559D1FCE22F55B2A001342EF /* MarkDownCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559D1FCF22F55B2A001342EF /* MarkDownCalendarUITests.swift */,
+				559D1FD122F55B2A001342EF /* Info.plist */,
+			);
+			path = MarkDownCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559D1FA822F55B29001342EF /* MarkDownCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D1FD422F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendar" */;
+			buildPhases = (
+				559D1FA522F55B29001342EF /* Sources */,
+				559D1FA622F55B29001342EF /* Frameworks */,
+				559D1FA722F55B29001342EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkDownCalendar;
+			productName = MarkDownCalendar;
+			productReference = 559D1FA922F55B29001342EF /* MarkDownCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559D1FBF22F55B2A001342EF /* MarkDownCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D1FD722F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendarTests" */;
+			buildPhases = (
+				559D1FBC22F55B2A001342EF /* Sources */,
+				559D1FBD22F55B2A001342EF /* Frameworks */,
+				559D1FBE22F55B2A001342EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559D1FC222F55B2A001342EF /* PBXTargetDependency */,
+			);
+			name = MarkDownCalendarTests;
+			productName = MarkDownCalendarTests;
+			productReference = 559D1FC022F55B2A001342EF /* MarkDownCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559D1FCA22F55B2A001342EF /* MarkDownCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559D1FDA22F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendarUITests" */;
+			buildPhases = (
+				559D1FC722F55B2A001342EF /* Sources */,
+				559D1FC822F55B2A001342EF /* Frameworks */,
+				559D1FC922F55B2A001342EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559D1FCD22F55B2A001342EF /* PBXTargetDependency */,
+			);
+			name = MarkDownCalendarUITests;
+			productName = MarkDownCalendarUITests;
+			productReference = 559D1FCB22F55B2A001342EF /* MarkDownCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559D1FA122F55B28001342EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Oscar;
+				TargetAttributes = {
+					559D1FA822F55B29001342EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					559D1FBF22F55B2A001342EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 559D1FA822F55B29001342EF;
+					};
+					559D1FCA22F55B2A001342EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 559D1FA822F55B29001342EF;
+					};
+				};
+			};
+			buildConfigurationList = 559D1FA422F55B28001342EF /* Build configuration list for PBXProject "MarkDownCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559D1FA022F55B28001342EF;
+			productRefGroup = 559D1FAA22F55B29001342EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559D1FA822F55B29001342EF /* MarkDownCalendar */,
+				559D1FBF22F55B2A001342EF /* MarkDownCalendarTests */,
+				559D1FCA22F55B2A001342EF /* MarkDownCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559D1FA722F55B29001342EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D1FBA22F55B2A001342EF /* LaunchScreen.storyboard in Resources */,
+				559D1FB722F55B2A001342EF /* Assets.xcassets in Resources */,
+				559D1FB222F55B29001342EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FBE22F55B2A001342EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FC922F55B2A001342EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559D1FA522F55B29001342EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D1FAF22F55B29001342EF /* ViewController.swift in Sources */,
+				559D1FAD22F55B29001342EF /* AppDelegate.swift in Sources */,
+				559D1FB522F55B29001342EF /* MarkDownCalendar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FBC22F55B2A001342EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D1FC522F55B2A001342EF /* MarkDownCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559D1FC722F55B2A001342EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559D1FD022F55B2A001342EF /* MarkDownCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559D1FC222F55B2A001342EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559D1FA822F55B29001342EF /* MarkDownCalendar */;
+			targetProxy = 559D1FC122F55B2A001342EF /* PBXContainerItemProxy */;
+		};
+		559D1FCD22F55B2A001342EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559D1FA822F55B29001342EF /* MarkDownCalendar */;
+			targetProxy = 559D1FCC22F55B2A001342EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559D1FB022F55B29001342EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559D1FB122F55B29001342EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559D1FB822F55B2A001342EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559D1FB922F55B2A001342EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559D1FD222F55B2A001342EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559D1FD322F55B2A001342EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559D1FD522F55B2A001342EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559D1FD622F55B2A001342EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		559D1FD822F55B2A001342EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkDownCalendar.app/MarkDownCalendar";
+			};
+			name = Debug;
+		};
+		559D1FD922F55B2A001342EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkDownCalendar.app/MarkDownCalendar";
+			};
+			name = Release;
+		};
+		559D1FDB22F55B2A001342EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkDownCalendar;
+			};
+			name = Debug;
+		};
+		559D1FDC22F55B2A001342EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8QW474GZY;
+				INFOPLIST_FILE = MarkDownCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Oscar.MarkDownCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkDownCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559D1FA422F55B28001342EF /* Build configuration list for PBXProject "MarkDownCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D1FD222F55B2A001342EF /* Debug */,
+				559D1FD322F55B2A001342EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559D1FD422F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D1FD522F55B2A001342EF /* Debug */,
+				559D1FD622F55B2A001342EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559D1FD722F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D1FD822F55B2A001342EF /* Debug */,
+				559D1FD922F55B2A001342EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559D1FDA22F55B2A001342EF /* Build configuration list for PBXNativeTarget "MarkDownCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D1FDB22F55B2A001342EF /* Debug */,
+				559D1FDC22F55B2A001342EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		559D1FB322F55B29001342EF /* MarkDownCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				559D1FB422F55B29001342EF /* MarkDownCalendar.xcdatamodel */,
+			);
+			currentVersion = 559D1FB422F55B29001342EF /* MarkDownCalendar.xcdatamodel */;
+			path = MarkDownCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 559D1FA122F55B28001342EF /* Project object */;
+}
