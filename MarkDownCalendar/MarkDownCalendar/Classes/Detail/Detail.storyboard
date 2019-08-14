@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JDe-Ew-b3y">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,12 +15,12 @@
             <objects>
                 <viewController id="JDe-Ew-b3y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O3f-bv-iuf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vwK-Lp-ghJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="详细" image="svg29" id="UbQ-C6-cJb">
+                    <tabBarItem key="tabBarItem" title="详细" image="svg29" selectedImage="svg29" id="UbQ-C6-cJb">
                         <color key="badgeColor" red="0.99546104749999997" green="0.25536421650000002" blue="0.35803367549999998" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBarItem>
                 </viewController>
